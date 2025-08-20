@@ -1,0 +1,22 @@
+Taller de:
+1. Variables
+2. Operadores
+3. Input
+4. Output
+5. Decisiones
+
+A partir de la verisión 3 del programa (v3_decisiones), resolver los siguientes requerimientos:
+    1. Algunos productos pueden tener un porcentaje de descuento. Por cada producto se debe preguntar si tiene porcentaje de descuento, en caso que el producto tenga descuento este debe ser aplicado y debe reflejarse en el total de la compra. Debe aplicarse a los dos productos de la compra
+
+    2. Algunos clientes son clientes VIP, cuando un cliente es VIP, puede escoger si paga a cuotas o de contado. Si el cliente decide pagar a cuotas, entonces el sistema debe mostrarle cuanto debe pagar por cada cuota
+
+    3. El supermercado a veces hace rifas, se le pregunta al cliente un número entre un valor X y un valor Y. Si el cliente adivina el número la compra tendrá un descuento del 90%, se le debe informar al cliente cuánto dinero se ahorró y cuánto debe pagar en el total de la cuenta.
+
+    Parámetros de entrega:
+    1. Debe ser resuelto en Python
+    2. Debe ser individual
+    3. Fecha de entrega: Debe entregarse máximo el día 25 de agosto a las 12 am
+    4. Deben subir este taller a GitHub antes de la fecha de entrega, es decir: 25 de agosto a las 12 am
+    5. Por cada día de retraso en la entrega se disminuye la calificación del taller una (1) unidad
+    6. Deben adjuntar pantallazos del programa funcionando. Estos pantallazos deben ir dentro del mismo código fuente del proyecto.
+    
