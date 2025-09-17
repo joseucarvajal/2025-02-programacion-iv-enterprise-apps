@@ -1,0 +1,31 @@
+Una empresa de transporte público, tiene flotas de diferentes vehículos:
+- Busetas interveredales trabajan cubriendo rutas dentro de la misma ciudad
+- Busetas intermunicipales trabajan cubriendo rutas a diferentes municipios dentro del mismo departamento
+- Moto-taxis: Estos funcionan solamente a nivel interveredal
+
+La empresa lo ha contratado a usted para que desarrolle una aplicación que les permita:
+
+- Registrar transportes: busetas interveredales, busetas intermunicipales y moto-taxis
+- Definir rutas para cada transporte, por ejemplo para una buseta, decir cual es la ruta (desde dónde hacia dónde va) y cuál es el valor del pasaje
+- Registrar pasajeros en cada trayecto del transporte. Por ejemplo para una buseta en particular, se deben registrar los pasajeros que viajan en un trayecto.
+
+IMPORTANTE: Las busetas y moto-taxis pueden tener más de un trayecto en el día, por ejemplo, la buseta con placa AAA-555 de 8 am a 12 m tiene el trayecto desde la vereda A hasta la vereda B, pero desde las 12 m hasta las 10 pm tiene el trayecto desde la vereda C hasta la vereda D. Por lo tanto el sistema debe permitir agregarle diferentes trayectos a un transporte (buseta o moto-taxi)
+
+La empresa desea conocer las siguientes estadísticas:
+1. El valor total recaudado por pasajes en toda la empresa para todos los transportes
+2. Cuál es la buseta intermunicipal que más dinero recaudó
+3. Cuál es la ruta que menos dinero está recaudando
+4. Qué deja más dinero, los transportes interveredales o intermunicipales
+5. Los pasajeros menores de edad tienen un descuento del 20% sobre el valor de los pasajes, la empresa desea conocer:
+    - El dinero total de los descuentos otorgados
+    - El dinero total de descuentos otorgados a niños con género femenino
+
+Parámetros de entrega:
+    - Fecha máxima en que debe estar en GitHub: Domingo 28 de septiembre a las 12 de la noche. Cada retraso de un día, tiene una unidad de descuento en la nota final del trabajo
+    - Porcentajes de calificación: Trabajo funcionando: 40%, sustentación: 60%
+    - Debe realizarse de forma individual, prohibido copiarse entre compañeros o trabajar en grupo
+    - Se debe utilizar Python
+    - Fecha de asesoría: 23 de septiembre. Es obligatorio venir a la asesoría.
+    - Fecha de sustentación: 30 de septiembre: En la sustentación se pondrá un ejercicio o un requerimiento a desarrollar en el proyecto, el estudiante debe ser capaz de desarrollar este ejercicio de manera exitosa para sustentar que ha realizado el trabajo y ha aprendido las temáticas vistas hasta el momento.
+    - Deben saber explicar todo lo que haya en el código, si hay instrucciones que no saben explicar, es plagio.
+    - NO se pueden agregar comentarios al código.
