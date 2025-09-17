@@ -51,9 +51,42 @@ def pedir_productos():
         if (ingresar_otro_producto == "n"):
             agregar_otro_producto = False
 
+def calcular_ventas_por_producto(nombre_producto: str):
+    total_ventas = 0
+    for producto in lista_productos:
+        if producto.nombre == nombre_producto:
+            total_ventas += producto.calcular_total()
+    return total_ventas
+
+def calcular_ventas_totales():
+    total_ventas = 0
+    for producto in lista_productos:
+        total_ventas += producto.calcular_total()
+    return total_ventas
+
+def mostrar_menu():
+    opcion = 0
+    while opcion != 4:
+        print("1. Ingresar productos")
+        print("2. Calcular ventas por producto")
+        print("3. Calcular ventas totales")
+        print("4. Salir")
+        opcion = int(input("Ingrese una opción: "))
+        if opcion == 1:
+            pedir_productos()
+        elif opcion == 2:
+            nombre_producto = input("Ingrese el nombre del producto que desea calcular las ventas: ")
+            ventas_por_producto = calcular_ventas_por_producto(nombre_producto)
+            print(f"Las ventas por producto son: {ventas_por_producto}")
+        elif opcion == 3:
+            ventas_totales = calcular_ventas_totales()
+            print(f"Las ventas totales son: {ventas_totales}")
+        elif opcion == 4:
+            print("Saliendo...")
+            break
+
 def main():
-    pedir_productos()
-    print(lista_productos)
+    mostrar_menu()
 
 if __name__ == "__main__":
     main()
